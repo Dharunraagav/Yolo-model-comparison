@@ -20,9 +20,19 @@ This project evaluates four versions of the YOLO (You Only Look Once) model fami
 
 The pest detection dataset consists of images annotated with bounding boxes for different pest species. The dataset was preprocessed and split into training, validation, and test sets with the following characteristics:
 
-- **Training Set**: X images
-- **Validation Set**: Y images
-- **Test Set**: Z images
+- **Training Set**: 4500 images
+- **Validation Set**: 1500 images
+- **Test Set**: 1500 images
+
+The dataset includes the following pest species:
+
+- **Asian Lady Beetle**
+- **Ladybug**
+- **Mealy Bug**
+- **Pyrilla perpusilla**
+- **Stink Bug**
+
+![Dataset Augmentation Distribution](images/dataset_augmentation_distribution.png)
 
 The dataset includes diverse conditions such as varying lighting, backgrounds, and pest types to simulate real-world scenarios.
 
@@ -31,23 +41,28 @@ The dataset includes diverse conditions such as varying lighting, backgrounds, a
 We compared the following YOLO models:
 
 
+
 - **YOLOv9**: Improved accuracy at the cost of slightly slower inference. [View Details](#)
   - [F1 Score Graph](Results/yolov9_F1_curve.png)
   - [Precision-Recall Curve](Results/yolov9_PR_curve.png)
   - [Results Curve](Results/yolov9_results.png)
   - [Inference Images](Results/yolov9_latency.jpg)
+  - [Model](Model/yolov8.pt)
 
 - **YOLOv10**: Focuses on high precision with more complex architecture. [View Details](#)
   - [F1 Score Graph](Results/yolov10_F1_curve.png)
   - [Precision-Recall Curve](Results/yolov10_PR_curve.png)
   - [Results Curve](Results/yolov10_results.png)
   - [Inference Images](Results/yolov10_latency.jpg)
+  - [Model](Model/yolov10n.pt)
 
 - **YOLOv11**: The latest version, optimized for both accuracy and speed using advanced techniques. [View Details](#)
   - [F1 Score Graph](Results/yolov11_F1_curve.png)
   - [Precision-Recall Curve](Results/yolo11_PR_curve.png)
   - [Results Curve](Results/yolov11_results.png)
   - [Inference Images](Results/yolov11_latency.jpg)
+  - [Model](Model/yolov11n.pt)
+
 ### Configuration
 
 Each model was trained with the following hyperparameters:
@@ -80,16 +95,11 @@ The results of the evaluation are summarized below:
 ### Clone the Repository
 
 ```bash
-git clone [https://github.com/yourusername/pest-detection-model-comparison.git]
+git clone https://github.com/Dharunraagav/pest-detection-model-comparison.git
 cd pest-detection-model-comparison
 ```
 
-### Install Dependencies
 
-Ensure you have Python 3.8+ and install the required libraries:
-
-
-```
 
 ### Run Evaluation
 
