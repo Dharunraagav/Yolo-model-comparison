@@ -38,17 +38,16 @@ We compared the following YOLO models:
   - [Inference Images](Results/yolov9_latency.jpg)
 
 - **YOLOv10**: Focuses on high precision with more complex architecture. [View Details](#)
-  - [F1 Score Graph](images/yolov10_f1score.png)
-  - [Precision-Recall Curve](images/yolov10_pr_curve.png)
-  - [Results Curve](images/yolov10_results_curve.png)
-  - [Inference Images](images/yolov10_inference.png)
+  - [F1 Score Graph](Results/yolov10_F1_curve.png)
+  - [Precision-Recall Curve](Results/yolov10_PR_curve.png)
+  - [Results Curve](Results/yolov10_results.png)
+  - [Inference Images](Results/yolov10_latency.jpg)
 
 - **YOLOv11**: The latest version, optimized for both accuracy and speed using advanced techniques. [View Details](#)
-  - [F1 Score Graph](images/yolov11_f1score.png)
-  - [Precision-Recall Curve](images/yolov11_pr_curve.png)
-  - [Results Curve](images/yolov11_results_curve.png)
-  - [Inference Images](images/yolov11_inference.png)
-
+  - [F1 Score Graph](Results/yolov11_F1_curve.png)
+  - [Precision-Recall Curve](Results/yolo11_PR_curve.png)
+  - [Results Curve](Results/yolov11_results.png)
+  - [Inference Images](Results/yolov11_latency.jpg)
 ### Configuration
 
 Each model was trained with the following hyperparameters:
