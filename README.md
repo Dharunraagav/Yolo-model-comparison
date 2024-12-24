@@ -80,7 +80,7 @@ The results of the evaluation are summarized below:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/pest-detection-model-comparison.git
+git clone [https://github.com/yourusername/pest-detection-model-comparison.git]
 cd pest-detection-model-comparison
 ```
 
@@ -88,8 +88,7 @@ cd pest-detection-model-comparison
 
 Ensure you have Python 3.8+ and install the required libraries:
 
-```bash
-pip install -r requirements.txt
+
 ```
 
 ### Run Evaluation
