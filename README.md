@@ -32,7 +32,7 @@ The dataset includes the following pest species:
 - **Pyrilla perpusilla**
 - **Stink Bug**
 
-[Dataset Augmentation Distribution avaialble here!](https://drive.google.com/drive/folders/1i-_3kDSdd7OTGobXJEH-1y6dUc1QzARq?usp=sharing)
+[Dataset Augmentation Distribution Dataset avaialble here!](https://drive.google.com/drive/folders/1i-_3kDSdd7OTGobXJEH-1y6dUc1QzARq?usp=sharing)
 
 The dataset includes diverse conditions such as varying lighting, backgrounds, and pest types to simulate real-world scenarios.
 
